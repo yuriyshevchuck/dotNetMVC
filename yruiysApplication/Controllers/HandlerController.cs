@@ -13,9 +13,15 @@ namespace yruiysApplication.Controllers
         {
             return View();
         }
+
         public string Test()
         {
             return "Hello world";
+        }
+
+        public ViewResult AddItem()
+        {
+            return View();
         }
     }
 }
